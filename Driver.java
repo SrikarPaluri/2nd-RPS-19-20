@@ -14,13 +14,10 @@ public class Driver
         //add players to game
         players[0] = new Example();
         players[1] = new PlayerExample();
-   
-        while(true)
-            {
+  
         Game newGame = new Game(players, printsRun);
         newGame.play();
         newGame.displayScore();
-    }
         
         //players.add(new Sos());
         
