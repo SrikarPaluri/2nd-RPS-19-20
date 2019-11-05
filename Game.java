@@ -106,8 +106,8 @@ public class Game
     
     private int oneRound(Player one, Player two, int round)
     {
-        String move1 = one.move(movesP1, movesP2, score1, score2);
-        String move2 = two.move(movesP2, movesP1, score2, score1);
+        String move1 = one.move(movesP1, movesP2, score1, score2, round);
+        String move2 = two.move(movesP2, movesP1, score2, score1, round);
         int illegal = 0;
         
         //CHECK THAT AN INVALID CHARACTER IS NOT ENTERED

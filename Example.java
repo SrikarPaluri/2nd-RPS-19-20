@@ -8,9 +8,9 @@ public class Example implements Player
     private static String name = "Example";
     private static String strategy = "Rock then all scissors";
 
-    public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore)
+    public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore, int rounds)
     {
-        if(myMoves.length == 0)
+        if(rounds == 1)
             return "r";
         else
             return "s";

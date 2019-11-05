@@ -10,6 +10,7 @@ import java.util.*;
  */
 public class PlayerExample implements Player
 {
+   
     private static String name = "PlayerExample";
     /**
      * An example of a method - replace this comment with your own
@@ -22,10 +23,10 @@ public class PlayerExample implements Player
      *              "s" - scissors
      *              anything else - forfeit the turn
      */
-    public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore)
+    public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore, int rounds)
     {
         
-        return " ";
+        return "s";
     }
     /**
      * Returns the name of the player

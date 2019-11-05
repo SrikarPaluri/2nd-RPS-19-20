@@ -7,6 +7,6 @@ import java.util.*;
  */
 public interface Player
 {
-    public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore);
+    public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore, int rounds);
     public String getName();
 }
