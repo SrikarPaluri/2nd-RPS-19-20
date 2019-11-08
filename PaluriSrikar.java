@@ -26,7 +26,7 @@ public class PaluriSrikar implements Player
      */
     public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore, int round)
     {
-       //int  rand = (int)(Math.random() * 100) % 3;
+       int  rand = (int)(Math.random() * 100) % 3;
         if ( round == 1){
            return "p";
            
