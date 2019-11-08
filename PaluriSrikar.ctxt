@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PaluriSrikar
+comment0.text=\n\ Each\ player\ or\ team\ will\ create\ their\ own\ Player,\ this\ is\ only\ an\ example....\n\ \n\ Your\ code\ MUST\ INCLUDE\ a\ move\ method\ with\ the\ following\ signature.\ To\ insure\ that,\ you\ must\ implement\n\ the\ Player\ interface\n\ \n\ You\ can\ create\ additional\ methods\ but\ must\ have\ the\ move\ method\n\ \n
+comment1.params=myMoves\ opponentMoves\ myScore\ opponentScore\ round
+comment1.target=java.lang.String\ move(java.lang.String[],\ java.lang.String[],\ int,\ int,\ int)
+comment1.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\ You\ must\ create\ some\ kind\ of\ logic\ of\ what\ to\ play\ against\ your\ opponent...start\ researching,\n\ driver\ code\ to\ be\ provided\ MONDAY,\ 2/27\n\ \n\ @return\ \ \ \ \ \ the\ move\ you\ want\ to\ play\ against\ opponent\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ "r"\ -\ rock\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ "p"\ -\ paper\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ "s"\ -\ scissors\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ anything\ else\ -\ forfeit\ the\ turn\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Returns\ the\ name\ of\ the\ player\n\ \n\ @return\ \ \ \ \ \ the\ name\ of\ the\ player\ \ \ \ \ \ \ \ \ \ \ \ \ \ \n
+numComments=3

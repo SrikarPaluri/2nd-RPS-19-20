@@ -10,10 +10,10 @@ public class Driver
     public static void main(String [] args)
     {
         Player [] players = new Player[2];
-        boolean printsRun = false;
+        boolean printsRun = true;
         //add players to game
         players[0] = new Example();
-        players[1] = new PlayerExample();
+        players[1] = new PaluriSrikar();
   
         Game newGame = new Game(players, printsRun);
         newGame.play();

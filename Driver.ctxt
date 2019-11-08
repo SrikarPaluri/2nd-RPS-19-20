@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\n\ Driver\ class,\ sets\ up\ game\n\ \n\ To\ test\ your\ code,\ add\ a\ line\ like\ players.add(new\ ________)\n\ of\ your\ class\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
