@@ -16,22 +16,22 @@ public class Example implements Player
         if(rounds == 1)
             return "r";
         else
-          return "s";
+         return "s";
         //else if  ( rounds == 2 ){
         //    curentNumberOfRs=2;
         //    numberOfRstobeSent =2;
-          //  return "p";
+        //    return "p";
         //}
         //else if ( curentNumberOfRs > 0 ){
-          //  curentNumberOfRs--;
-         //   return "r";
-       // }
-        //else {
+         //   curentNumberOfRs--;
+          //  return "r";
+        }
+       // else {
          // numberOfRstobeSent++;
-        //  curentNumberOfRs = numberOfRstobeSent;
+         // curentNumberOfRs = numberOfRstobeSent;
         //  return "p";
        // }
-    }
+   // }
 
     public String getName()
     {
