@@ -20,7 +20,8 @@ public class Game
     {
         // initialise instance variables
         this.players = players;
-        numRounds = (int)(Math.random() * 101) + 100; //SET TO 50 FOR TESTING, WILL BE RANDOM 100 - 200
+        //numRounds = (int)(Math.random() * 101) + 100; //SET TO 50 FOR TESTING, WILL BE RANDOM 100 - 200
+        numRounds = 200;
         score1 = score2 = 0;
         this.print = print;
         scores = new int [players.length];
